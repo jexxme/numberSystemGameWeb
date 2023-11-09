@@ -3,30 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Number Conversion Learning Tool</title>
+<title>Number Conversion Learning Game</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <nav>
     <ul>
-      <li><a href="#dec-bin">Dec <-> Bin</a></li>
-      <li><a href="#bin-dec">Bin <-> Dec</a></li>
-      <li><a href="#dec-hex">Dec <-> Hex</a></li>
-      <li><a href="#hex-dec">Hex <-> Dec</a></li>
-      <li><a href="#bin-hex">Bin <-> Hex</a></li>
-      <li><a href="#hex-bin">Hex <-> Bin</a></li>
-      <!-- Add more list items here for additional conversions -->
+      <li><a href="#dec-bin">Dec 🢡 Bin</a></li>
+      <!-- Other menu items -->
     </ul>
   </nav>
-  
+
   <div id="dec-bin-game">
     <h2>Convert Decimal to Binary!</h2>
     <p>What is the binary equivalent of <span id="decimal-number"></span>?</p>
     <input type="text" id="user-input" placeholder="Enter binary number" />
     <button id="check-answer">Check Answer</button>
+    <button id="next-question" style="display:none;">Next Question</button>
     <p id="result"></p>
-  </div>
-  <!-- Content will go here -->
+    <div id="explanation" class="explanation"></div> <!-- Updated container for the explanation -->
+</div>
 
+
+<!-- ... -->
+
+  <script src="script.js"></script>
 </body>
 </html>
