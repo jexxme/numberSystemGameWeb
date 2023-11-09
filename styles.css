@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   body, html {
@@ -62,7 +62,7 @@
   }
   
   #dec-bin-game button {
-    margin-left: 10px;
+    margin: 10px;
     padding: 10px 20px;
     background-color: #007bff; /* Blue background for buttons */
     color: white;
@@ -129,3 +129,39 @@
     font-weight: bold;
   }
   
+
+
+
+  footer {
+    width: 100%;
+    background-color: #fff; /* Transparent background */
+    padding: 15px 0; /* Add some padding */
+    position: fixed; /* Fixed at the bottom */
+    bottom: 0; /* Align to bottom */
+    left: 0; /* Align to left */
+  
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* Rest of your styles... */
+  
+  
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    align-items: center; /* Center the icons vertically */
+    gap: 25px; /* Space between icons */
+  }
+  
+  .footer-icons a {
+    text-decoration: none;
+    color: inherit; /* Take the color from the parent */
+    font-size: 1.5rem; /* Size of icons */
+  }
+  
+  .fa {
+    font-size: 50px; /* Size of icons */
+  }
