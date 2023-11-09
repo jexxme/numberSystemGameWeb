@@ -1,0 +1,131 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+  }
+  
+  body, html {
+    height: 100%;
+    background-color: #f0f0f0; /* Light grey background for a clean look */
+    color: #333; /* Dark grey text for better readability */
+  }
+  
+  /* Navbar Styles */
+  nav {
+    background-color: #fff; /* White background for navbar */
+    border-bottom: 2px solid #e7e7e7; /* Slight border for definition */
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #707070; /* Blue color for links */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  nav ul li a:hover {
+    background-color: #e7e7e7; /* Light grey background on hover */
+    color: #333; /* Dark text for contrast */
+  }
+  
+  /* Game Styles */
+  #dec-bin-game {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #dec-bin-game h2 {
+    margin-bottom: 15px;
+    color: #007bff; /* Blue color for headings */
+  }
+  
+  #dec-bin-game input {
+    margin-top: 10px;
+    padding: 8px;
+    width: 200px; /* Adjusted for a balanced width */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  #dec-bin-game button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background for buttons */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Rounded corners for buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  #dec-bin-game button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  #result {
+    margin-top: 20px;
+  }
+  
+  /* Explanation Styles */
+  .explanation {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff; /* White background for the explanation box */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 4px; /* Rounded corners */
+    display: none; /* Hide by default, show after validation */
+  }
+  
+  .explanation p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .explanation-table {
+    display: table;
+    margin: 10px auto;
+    width: 100%; /* Full width for better layout */
+  }
+  
+  .explanation-row {
+    display: table-row;
+  }
+  
+  .explanation-cell {
+    display: table-cell;
+    padding: 5px 10px;
+    text-align: center;
+    vertical-align: bottom;
+  }
+  
+  .binary-digit {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff; /* Blue color for binary digits */
+  }
+  
+  .power-of-two {
+    color: #555;
+    font-size: 12px;
+  }
+  
+  .sum-value {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
