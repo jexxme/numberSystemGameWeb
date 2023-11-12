@@ -44,9 +44,10 @@
   }
   
   nav ul li img.nav-icon {
-    height: 20px; /* Increased height */
-    width: 20px; /* Increased width */
-}
+    /* height: 20px; Increased height */
+    /* width: 20px; Increased width */
+    height: 18px;
+  }
   
   /* Welcome Styles */
   .main-content {
