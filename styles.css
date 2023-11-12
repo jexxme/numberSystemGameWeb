@@ -94,7 +94,7 @@
   #dec-bin-game input {
     margin-top: 10px;
     padding: 8px;
-    width: 200px; /* Adjusted for a balanced width */
+    width: 150px; /* Adjusted for a balanced width */
     border: 1px solid #ddd; /* Subtle border */
     border-radius: 4px; /* Rounded corners */
   }
